@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.wl.atomsparenting.views.RoundCornerImageView
+        android:id="@+id/quanzi_roundCornerImageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/welcome_page_one" />
+
+    <TextView
+        android:id="@+id/quanzi_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/quanzi_roundCornerImageView"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/quanzi_roundCornerImageView"
+        android:text="自然观察圈"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/quanzi_tiezi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/quanzi_title"
+        android:layout_below="@id/quanzi_title"
+        android:layout_marginTop="7dp"
+        android:text="帖子"
+        android:textSize="13sp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/quanzi_tiezi"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/quanzi_tiezi"
+        android:text="162"
+        android:textColor="#f00"
+        android:textSize="13sp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quanzi_tiezi"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@id/quanzi_roundCornerImageView"
+        android:text="自然之中有太多的奇迹和感动..."
+        android:textSize="13sp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@id/quanzi_tiezi"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="3dp"
+        android:src="@drawable/icon_arrow_grey" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/quanzi_roundCornerImageView"
+        android:layout_marginTop="7dp"
+        android:background="#eee" />
+</RelativeLayout>

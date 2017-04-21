@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgimg"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/welcome_page_four" />
+
+    <TextView
+        android:id="@+id/tvtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgimg"
+        android:layout_margin="10dp"
+        android:text="讲好英语的8个窍门"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvtv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvtv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="by"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvtv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tvtv1"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/tvtv1"
+        android:text="苏菲"
+        android:textColor="#ee999f"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tvtv1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#f0f0f0" />
+
+    <TextView
+        android:id="@+id/tvtvpeple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvline"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="766人感兴趣"
+        android:textSize="15sp" />
+
+</RelativeLayout>
